@@ -24,11 +24,12 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  background-color: #111; /* plus moderne */
+  color: white;
   min-height: 100vh;
+  display: block; /* ❗ empêche la mise en page centrée verticale */
 }
+
 
 h1 {
   font-size: 3.2em;
