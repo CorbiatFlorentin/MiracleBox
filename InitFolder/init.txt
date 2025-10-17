@@ -1,1 +1,6 @@
 Initialisation du projet 
+
+uvicorn api:app --reload --port 8000
+
+
+npm run dev
